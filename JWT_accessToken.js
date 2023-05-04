@@ -7,7 +7,7 @@ dotenv.config();
 
 const postData = {
   assertion: process.env.ASSERTION,
-  grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer...'
+  grant_type: 'urn:ietf:params:oauth:grant-type:jwt-bearer'
 };
 
 app.get("/", (req,res) => {res.send("Getting JWT Token By using Admin Credentials... ")})
