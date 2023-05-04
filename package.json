@@ -4,8 +4,7 @@
   "description": "",
   "main": "JWT_accessToken.js",
   "scripts": {
-    "start": "nodemon JWT_accessToken",
-    "build": "webpack --config config.js",
+    "start": "node JWT_accessToken",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
